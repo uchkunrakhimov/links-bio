@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1600,
   },
+  publicDir: 'public',
   define: {
     "process.env": {},
   },

@@ -1,5 +1,5 @@
 import { background } from "../data";
-const Video = () => {
+const Background = () => {
   return (
     <img
       src={background}
@@ -8,4 +8,4 @@ const Video = () => {
   );
 };
 
-export { Video };
+export { Background };
